@@ -1,0 +1,9 @@
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.deps.json
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.dll
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.csproj.CoreCompileInputs.cache
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.AssemblyInfoInputs.cache
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.AssemblyInfo.cs
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.pdb
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.dll
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.pdb
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.IModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.csprojResolveAssemblyReference.cache

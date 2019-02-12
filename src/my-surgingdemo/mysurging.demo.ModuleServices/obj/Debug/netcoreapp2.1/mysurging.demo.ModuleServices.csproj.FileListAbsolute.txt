@@ -1,0 +1,11 @@
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.deps.json
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.dll
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.pdb
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.dll
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\bin\Debug\netcoreapp2.1\mysurging.demo.IModuleServices.pdb
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.csprojResolveAssemblyReference.cache
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.csproj.CoreCompileInputs.cache
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.AssemblyInfoInputs.cache
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.AssemblyInfo.cs
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.dll
+D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.ModuleServices\obj\Debug\netcoreapp2.1\mysurging.demo.ModuleServices.pdb

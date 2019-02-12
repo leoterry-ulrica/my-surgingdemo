@@ -1,0 +1,187 @@
+2019-02-12 23:11:58.6000 Info Message Template Auto Format enabled
+2019-02-12 23:11:58.6710 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:11:58.6742 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:11:58.6742 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:11:58.7926 Warn Error when setting property 'Layout' on 'File Target[ownFile-web]' Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2019-02-12 23:11:58.7926 Warn Error when setting '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${uppercase:${level}}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}|${callsite}' on attibute 'layout'
+2019-02-12 23:11:58.8133 Error Parsing configuration from D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\NLog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Layout' on File Target[ownFile-web] ---> System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-02-12 23:13:49.7296 Info Message Template Auto Format enabled
+2019-02-12 23:13:49.8724 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:13:49.8813 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:13:49.9072 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:13:49.9114 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-12 23:13:49.9114 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-12 23:13:49.9482 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-12 23:13:50.0420 Info Found 108 configuration items
+2019-02-12 23:13:50.1454 Info Message Template Auto Format enabled
+2019-02-12 23:13:50.1454 Info Found 108 configuration items
+2019-02-12 23:13:50.1454 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:13:50.1454 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:13:50.1454 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:13:50.2136 Warn Error when setting property 'Layout' on 'File Target[ownFile-web]' Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2019-02-12 23:13:50.2136 Warn Error when setting '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${uppercase:${level}}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}|${callsite}' on attibute 'layout'
+2019-02-12 23:13:50.2136 Error Parsing configuration from D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Layout' on File Target[ownFile-web] ---> System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-02-12 23:15:27.6493 Info Message Template Auto Format enabled
+2019-02-12 23:15:27.7079 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:15:27.7079 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:15:27.7079 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:15:27.7219 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-12 23:15:27.7219 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-12 23:15:27.7219 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-12 23:15:27.7805 Info Found 108 configuration items
+2019-02-12 23:15:27.8335 Info Message Template Auto Format enabled
+2019-02-12 23:15:27.8335 Info Found 108 configuration items
+2019-02-12 23:15:27.8335 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:15:27.8335 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:15:27.8335 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:15:27.9258 Warn Error when setting property 'Layout' on 'File Target[ownFile-web]' Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2019-02-12 23:15:27.9258 Warn Error when setting '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${uppercase:${level}}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}|${callsite}' on attibute 'layout'
+2019-02-12 23:15:27.9258 Error Parsing configuration from D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Layout' on File Target[ownFile-web] ---> System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-02-12 23:17:35.6668 Info Message Template Auto Format enabled
+2019-02-12 23:17:35.7626 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:17:35.7626 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:17:35.7748 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:17:35.7748 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-12 23:17:35.7748 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-12 23:17:35.7908 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-12 23:17:35.8449 Info Found 108 configuration items
+2019-02-12 23:17:35.8939 Info Message Template Auto Format enabled
+2019-02-12 23:17:35.8939 Info Found 108 configuration items
+2019-02-12 23:17:35.8939 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:17:35.8939 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:17:35.8939 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:17:36.0055 Warn Error when setting property 'Layout' on 'File Target[ownFile-web]' Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2019-02-12 23:17:36.0055 Warn Error when setting '${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${uppercase:${level}}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}|${callsite}' on attibute 'layout'
+2019-02-12 23:17:36.0055 Error Parsing configuration from D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config.  ---> NLog.NLogConfigurationException: Error when setting property 'Layout' on File Target[ownFile-web] ---> System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.set_Text(String value)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, Object& newValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.XmlLoggingConfiguration.ConfigureObjectFromAttributes(Object targetObject, NLogXmlElement element, Boolean ignoreType)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetElement(Target target, NLogXmlElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement(NLogXmlElement targetsElement)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-02-12 23:20:16.0373 Info Message Template Auto Format enabled
+2019-02-12 23:20:16.0916 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:20:16.0916 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:20:16.1014 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:20:16.1014 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-12 23:20:16.1014 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-12 23:20:16.1184 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-12 23:20:16.1737 Info Found 108 configuration items
+2019-02-12 23:20:16.2185 Info Message Template Auto Format enabled
+2019-02-12 23:20:16.2185 Info Found 108 configuration items
+2019-02-12 23:20:16.2220 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:20:16.2220 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:20:16.2220 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:20:16.2398 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-12 23:20:16.2398 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-12 23:20:16.2398 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config...
+2019-02-12 23:20:16.2398 Info Closing old configuration.
+2019-02-12 23:20:16.2880 Info Found 120 configuration items
+2019-02-12 23:20:16.3082 Info Shutting down logging...
+2019-02-12 23:20:16.3082 Info Logger has been shut down.
+2019-02-12 23:20:51.5020 Info Message Template Auto Format enabled
+2019-02-12 23:20:51.5614 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:20:51.5653 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:20:51.5653 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:20:51.5653 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-12 23:20:51.5653 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-12 23:20:51.5876 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-12 23:20:51.6292 Info Found 108 configuration items
+2019-02-12 23:20:51.6732 Info Message Template Auto Format enabled
+2019-02-12 23:20:51.6747 Info Found 108 configuration items
+2019-02-12 23:20:51.6747 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-12 23:20:51.6747 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-12 23:20:51.6747 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-12 23:20:51.6913 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-12 23:20:51.6913 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-12 23:20:51.6913 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Server\bin\Debug\netcoreapp2.1\Configs/nlog.config...
+2019-02-12 23:20:51.6913 Info Closing old configuration.
+2019-02-12 23:20:51.7308 Info Found 120 configuration items
+2019-02-12 23:20:51.7503 Info Shutting down logging...
+2019-02-12 23:20:51.7609 Info Logger has been shut down.

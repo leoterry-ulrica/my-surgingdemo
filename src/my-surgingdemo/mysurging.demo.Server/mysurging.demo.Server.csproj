@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configs\AppSettings.json" />
+    <None Remove="Configs\cacheSettings.json" />
+    <None Remove="Configs\eventBusSettings.json" />
+    <None Remove="Configs\nlog.config" />
+    <None Remove="Configs\surgingSettings.json" />
+    <None Remove="nlog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Configs\AppSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\cacheSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\eventBusSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\surgingSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.0" />
+    <PackageReference Include="surging" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Caching" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Codec.MessagePack" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.EventBusKafka" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Nlog" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Zookeeper" Version="1.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mysurging.demo.IModuleServices\mysurging.demo.IModuleServices.csproj" />
+    <ProjectReference Include="..\mysurging.demo.ModuleServices\mysurging.demo.ModuleServices.csproj" />
+  </ItemGroup>
+
+</Project>
