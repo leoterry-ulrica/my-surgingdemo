@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configs\AppSettings.json" />
+    <None Remove="Configs\cacheSettings.json" />
+    <None Remove="Configs\eventBusSettings.json" />
+    <None Remove="Configs\surgingSettings.json" />
+    <None Remove="NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Configs\appSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\cacheSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\eventBusSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configs\surgingSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+    <PackageReference Include="surging" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Caching" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.EventBusKafka" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Nlog" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Zookeeper" Version="1.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mysurging.demo.IModuleServices\mysurging.demo.IModuleServices.csproj" />
+  </ItemGroup>
+
+</Project>

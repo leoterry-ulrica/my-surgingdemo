@@ -1,0 +1,90 @@
+2019-02-13 08:03:38.3280 Info Message Template Auto Format enabled
+2019-02-13 08:03:38.3898 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:03:38.3943 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:03:38.4102 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:03:38.4102 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:03:38.4102 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:03:38.4102 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:03:38.4707 Info Found 108 configuration items
+2019-02-13 08:03:39.3097 Info Message Template Auto Format enabled
+2019-02-13 08:03:39.3097 Info Found 108 configuration items
+2019-02-13 08:03:39.3097 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:03:39.3097 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:03:39.3165 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:03:39.3165 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:03:39.3165 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:03:39.3165 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:03:39.3315 Info Closing old configuration.
+2019-02-13 08:03:40.4198 Info Found 108 configuration items
+2019-02-13 08:09:19.8177 Info Message Template Auto Format enabled
+2019-02-13 08:09:19.8668 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:09:19.8668 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:09:19.8866 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:09:19.8866 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:09:19.8866 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:09:19.8998 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:09:19.9382 Info Found 108 configuration items
+2019-02-13 08:09:20.6196 Info Message Template Auto Format enabled
+2019-02-13 08:09:20.6196 Info Found 108 configuration items
+2019-02-13 08:09:20.6196 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:09:20.6196 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:09:20.6196 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:09:20.6196 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:09:20.6279 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:09:20.6279 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:09:20.6279 Info Closing old configuration.
+2019-02-13 08:09:20.7490 Info Found 108 configuration items
+2019-02-13 08:11:13.2112 Info Message Template Auto Format enabled
+2019-02-13 08:11:13.2619 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:11:13.2619 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:11:13.2858 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:11:13.2858 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:11:13.2858 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:11:13.3012 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:11:13.3460 Info Found 108 configuration items
+2019-02-13 08:11:14.0088 Info Message Template Auto Format enabled
+2019-02-13 08:11:14.0088 Info Found 108 configuration items
+2019-02-13 08:11:14.0088 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:11:14.0088 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:11:14.0088 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:11:14.0088 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:11:14.0088 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:11:14.0088 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:11:14.0281 Info Closing old configuration.
+2019-02-13 08:11:14.1202 Info Found 108 configuration items
+2019-02-13 08:15:09.6932 Info Message Template Auto Format enabled
+2019-02-13 08:15:09.7489 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:15:09.7489 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:15:09.7705 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:15:09.7705 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:15:09.7705 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:15:09.7705 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:15:09.8171 Info Found 108 configuration items
+2019-02-13 08:15:10.4859 Info Message Template Auto Format enabled
+2019-02-13 08:15:10.4877 Info Found 108 configuration items
+2019-02-13 08:15:10.4877 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:15:10.4877 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:15:10.4877 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:15:10.4877 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:15:10.4877 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:15:10.5062 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:15:10.5062 Info Closing old configuration.
+2019-02-13 08:15:10.6021 Info Found 108 configuration items
+2019-02-13 08:58:48.2800 Info Message Template Auto Format enabled
+2019-02-13 08:58:48.3685 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:58:48.3788 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:58:48.4252 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:58:48.4252 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:58:48.4252 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:58:48.4417 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:58:48.4806 Info Found 108 configuration items
+2019-02-13 08:58:49.1862 Info Message Template Auto Format enabled
+2019-02-13 08:58:49.1862 Info Found 108 configuration items
+2019-02-13 08:58:49.1862 Info Adding target AsyncWrapper Target[console](Console Target[console_wrapped])
+2019-02-13 08:58:49.1909 Info Adding target AsyncWrapper Target[debugger](Debugger Target[debugger_wrapped])
+2019-02-13 08:58:49.1909 Info Adding target AsyncWrapper Target[allfile](File Target[allfile_wrapped])
+2019-02-13 08:58:49.1909 Info Adding target AsyncWrapper Target[ownFile-web](File Target[ownFile-web_wrapped])
+2019-02-13 08:58:49.1909 Info Adding target AsyncWrapper Target[ownLog-tcp](Network Target[ownLog-tcp_wrapped])
+2019-02-13 08:58:49.1909 Info Configured from an XML element in D:\gitrep\my-surgingdemo\src\my-surgingdemo\mysurging.demo.Client\bin\Debug\netcoreapp2.1\NLog.config...
+2019-02-13 08:58:49.1909 Info Closing old configuration.
+2019-02-13 08:58:49.2977 Info Found 108 configuration items

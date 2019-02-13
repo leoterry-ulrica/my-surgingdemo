@@ -45,7 +45,7 @@ namespace mysurging.demo.Server
                 })
                 .UseServer(options => { })
                 .UseConsoleLifetime()
-                .UseNLog(LogLevel.Error, "Configs/nlog.config")// 使用NLog 记录日志
+                .UseNLog(LogLevel.Trace, "NLog.config")// 使用NLog 记录日志
                 .Configure(build =>
                 build.AddCacheFile("${cachepath}|Configs/cacheSettings.json", basePath: AppContext.BaseDirectory, optional: false, reloadOnChange: true))
                 .Configure(build =>

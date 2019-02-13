@@ -9,6 +9,9 @@ namespace mysurging.demo.ModuleServices
     [ModuleName("User")]  //标识实例化名称
     public class UserService : ProxyServiceBase, IUserService
     {
+        public UserService()
+        {
+        }
         public Task<string> GetUserName(int id)
         {
             return Task.FromResult<string>("user number : " + id);
